@@ -1,0 +1,25 @@
+v {xschem version=3.4.5 file_version=1.2
+}
+G {}
+K {type=subcircuit
+format="@name @pinlist @symname"
+template="name=x1"
+}
+V {}
+S {}
+E {}
+L 4 140 -110 140 -90 {}
+L 4 140 -90 260 -90 {}
+L 4 260 -110 260 -90 {}
+L 4 140 -110 260 -110 {}
+L 7 200 -90 200 -70 {}
+L 7 260 -100 280 -100 {}
+L 7 120 -100 140 -100 {}
+B 5 197.5 -72.5 202.5 -67.5 {name=AVSS dir=inout}
+B 5 277.5 -102.5 282.5 -97.5 {name=B dir=inout}
+B 5 117.5 -102.5 122.5 -97.5 {name=A dir=inout}
+T {AVSS} 206 -55 3 0 0.2 0.2 {}
+T {@symname} 172.5 -106 0 0 0.2 0.2 {}
+T {@name} 235 -122 0 0 0.2 0.2 {}
+T {B} 255 -104 0 1 0.2 0.2 {}
+T {A} 145 -96 2 1 0.2 0.2 {}
